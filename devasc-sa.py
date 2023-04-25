@@ -190,8 +190,7 @@ while True:
             CountryResult = countries.get(CountryResult).name
             responseMessage = "On {}, the ISS was flying over the following location: \n{} \n{}, {} \n{}\n({}\", {}\")".format(timeString, StreetResult, CityResult, StateResult, CountryResult, lat, lng)
 
-        #else not CountryResult == "XZ":
-            #CountryResult = countries.get(CountryResult).name
+
 
 # 12. Complete the code to format the response message.
 #     Example responseMessage result: In Austin, Texas the ISS will fly over on Thu Jun 18 18:42:36 2020 for 242 seconds.
@@ -200,15 +199,7 @@ while True:
         #if CountryResult == "XZ":
             #responseMessage = "On {}, the ISS was flying over a body of water at latitude {}° and longitude {}°.".format(timeString, lat, lng)
 
-        #elif CountryResult == " ":
-            #responseMessage = "On {}, the ISS was flying over a body of water at latitude {}° and longitude {}°.".format(timeString, lat, lng)
-
-        
-        #if not CountryResult == "XZ":
-            #responseMessage = "On {}, the ISS was flying over the following location: \n{} \n{}, {} \n{}\n({}\", {}\")".format(timeString, StreetResult, CityResult, StateResult, CountryResult, lat, lng)
-    
-
-
+     
 
         
        
